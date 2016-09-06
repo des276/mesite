@@ -6,7 +6,7 @@
 		{!! Html::style('css/app.css') !!}
 		{!! Html::script('js/jquery.min.js') !!}
 		{!! Html::script('js/bootstrap.min.js') !!}
-
+		
 		<style>
 			body {
 				padding-top: 60px;
@@ -34,8 +34,8 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="<?php echo url('about');?>">About</a></li>
+                    <li><a href="<?php echo url('agent');?>">User Agent</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
